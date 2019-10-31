@@ -176,7 +176,7 @@ class AddFriend(APIView):
             return Response(serializer.data) 
 
 class RemoveFriend(APIView):
-    permission_classes = (IsAuthenticated,) 
+    #permission_classes = (IsAuthenticated,) 
 
     def get_object(self,email_id):
         try:
