@@ -12,7 +12,7 @@ class ProfileAdmin(admin.ModelAdmin):
     
     search_fields=('name',)
     list_display = ('id','name','gender','date_of_birth' )
-    list_filter = ('gender', )
+    #list_filter = ('gender', )
     #fields = ('user_image' )
     # readonly_fields = ('image_tag',)
 
